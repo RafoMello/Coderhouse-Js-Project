@@ -1,10 +1,10 @@
-// get the modal
+// Open the Modal Window
 let modal = document.getElementById("modal-form")
 
-// get the button that opens the modal
+// Create Variable that Opens Modal Button
 let btn = document.getElementById("modal-button")
 
-// get the <span> element that closes the modal
+// Busca elemento para cerrar modal
 let span = document.querySelector(".close")
 
 // when the user clicks on the button, open the modal

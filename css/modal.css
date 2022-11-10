@@ -17,7 +17,7 @@
 .modal-header {
   padding: 2px 16px;
   margin-bottom: 10px;
-  background-color: #256e7d;
+  background-color: #2e6db4;
   color: white;
   border-radius: 10px 10px 0 0;
   text-transform: uppercase;
@@ -100,7 +100,7 @@
   color: #fff;
   font-family: Overpass, Arial, Helvetica, sans-serif;
   font-weight: bold;
-  background: #44b0e4;
+  background: #000000;
   outline: none;
   border:0;
   border-radius: 5px;

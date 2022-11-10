@@ -20,15 +20,15 @@
       </div> <!-- left-banner -->
       <div class="right-banner">
         <div class="content">
-          <span class="total-books"></span>
+          <span class="total-games"></span>
           <span>Game <br>Titles</span>
         </div>
       </div> <!-- right-banner -->
     </div> <!-- banner -->
 
-    <div class="new-book-container">
-      <button id="modal-button" class="new-book">new game</button>
-    </div> <!-- new book container -->
+    <div class="new-game-container">
+      <button id="modal-button" class="new-game">new game</button>
+    </div> <!-- new Game container -->
 
     <div class="card-container">
       
@@ -42,20 +42,26 @@
     <div class="modal-content">
       <div class="modal-header">
         <span class="close">&times;</span>
-        <h2>Add new book</h2>
+        <h2>Add New Game</h2>
       </div> <!-- modal-header -->
       <div class="modal-body">
-        <form id="new-book-form">
-          <label for="booktitle" class="form-label">Title:</label> <br>
-          <input type="text" name="booktitle" id="booktitle" class="form-input" autocomplete="off"> <br> <!-- book title -->
-          <label for="bookauthor" class="form-label">Author:</label> <br>
-          <input type="text" name="bookauthor" id="bookauthor" class="form-input" autocomplete="off"> <br> <!-- book author -->
-          <label for="bookpages" class="form-label">Pages:</label> <br>
-          <input type="number" name="bookpages" id="bookpages" class="form-input" autocomplete="off"> <br> <!-- book pages-->
-          <label for="hasbeenread" class="form-label">Has been read:</label> <br>
-          <select id="hasbeenread" class="form-dropdown"> <br> <!-- book has been read -->
-            <option value="read">Read</option>
-            <option value="unread">Unread</option>
+        <form id="new-game-form">
+          <label for="gametitle" class="form-label">Game Name:</label> <br>
+          <input type="text" name="gametitle" id="gametitle" class="form-input" autocomplete="off"> <br> <!-- Game Name -->
+          <label for="gamepages" class="form-label">Avarege Price (US):</label> <br>
+          <input type="number" name="gamepages" id="gamepages" class="form-input" autocomplete="off"> <br> <!-- Game Price-->
+          <label for="consoleplataform" class="form-label">Which console is:</label> <br>
+          <select id="consoleplatform" class="form-dropdown"> <br> <!-- Game Console -->
+            <option value="PS2">PS2</option>
+            <option value="PS3">PS3</option>
+            <option value="PS4">PS4</option>
+            <option value="PS5">PS5</option>
+          </select> <br><br>
+          <label for="hasbeecompleted" class="form-label">Has been Completed:</label> <br>
+          <select id="hasbeencompleted" class="form-dropdown"> <br> <!-- Game Status -->
+            <option value="Completed">Completed</option>
+            <option value="In Progress">In progress</option>
+            <option value="To Play">To Play</option>
           </select> <br>
           <hr>
           <input type="submit" value="submit" class="submit-button">
